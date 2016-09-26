@@ -2,8 +2,11 @@
 Multilayer Perceptron powered TicTacToe
 
 The game needs the following three files
+
 •	mlp_tictac.pkl, this python object file contains the multilayer perceptron trained on the tictac_multi.txt dataset. It’s a shallow network of 1 hidden layer with 1000 neurons. This network has an accuracy of 88.44% (accuracy calculated on the dataset using 10-fold cross validation).
+
 •	GameCore.py, this python script contains the main code required to for the functioning of the game.
+
 •	GameTicTac.py, this is the script used to play the game. Simply run this script in the terminal and enjoy the game.
 
 The computer plays a fairly decent game of tic tac toe with the mlp classifier for its optimal moves prediction. I couldn’t win in my ten game trails against the computer, though I dint loose either, all of the games ended in a tie. Though there were instances where the computer could have won but made a move that wasn’t the winning move and the game ended in a tie. Though this could have been because when I chose the move from the predicted optimal moves I chose the smallest of the predicted indexes that dint overlap with the occupied states on the board, for ex-
