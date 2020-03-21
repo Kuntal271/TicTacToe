@@ -1,5 +1,5 @@
 # TicTacToe
-Multilayer Perceptron powered TicTacToe
+Multilayer NN powered TicTacToe
 
 ![alt tag](https://github.com/rooster06/TicTacToe/blob/master/fig1.png)
 
